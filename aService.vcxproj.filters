@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{1e34d6e2-029b-4720-b721-1d2e013391ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c5be0607-a6fb-420e-a885-0345ccf19199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Cmd">
+      <UniqueIdentifier>{d114e6dd-e80f-448c-9691-cba035764c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{b43b43fc-a339-4c85-84a2-20235d7eecf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Cmd\proto">
+      <UniqueIdentifier>{6bf282b6-7aaf-402a-a5d6-ff897be6f7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Net">
+      <UniqueIdentifier>{1d8955df-1763-45cf-951b-392c0ad70d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto\def">
+      <UniqueIdentifier>{f1b29a2d-4b6f-4faf-9096-4c07c5ce062c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="corutin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cbuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\ServerDef.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="dispatcher.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\LogService.pb.cc">
+      <Filter>Core\Cmd\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="xServer.cpp">
+      <Filter>Core\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionMgr.cpp">
+      <Filter>Core\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Core\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_pool.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\GateService.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\LoginService.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\ServiceMgr.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerWheel.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceMgr.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="proto\xCommond.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\ServerDef.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="guid.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="message_def.h">
+      <Filter>Core\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="message_route.h">
+      <Filter>Core\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xSingleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message_manager.h">
+      <Filter>Core\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="message_log.h">
+      <Filter>Core\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="message_service.h">
+      <Filter>Core\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\LogService.pb.h">
+      <Filter>Core\Cmd\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Core\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="xServer.h">
+      <Filter>Core\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionMgr.h">
+      <Filter>Core\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="cbuffer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="info_def.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_pool.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="corutin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\GateService.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\LoginService.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\ServiceMgr.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerWheel.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UnLockCircularBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceMgr.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceDef.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceMsgHelper.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\xCommond.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="proto\proto\GateService.proto">
+      <Filter>proto\def</Filter>
+    </None>
+    <None Include="proto\proto\LoginService.proto">
+      <Filter>proto\def</Filter>
+    </None>
+    <None Include="proto\proto\LogService.proto">
+      <Filter>proto\def</Filter>
+    </None>
+    <None Include="proto\proto\ServerDef.proto">
+      <Filter>proto\def</Filter>
+    </None>
+    <None Include="proto\proto\ServiceMgr.proto">
+      <Filter>proto\def</Filter>
+    </None>
+    <None Include="proto\proto\xCommond.proto">
+      <Filter>proto\def</Filter>
+    </None>
+  </ItemGroup>
+</Project>

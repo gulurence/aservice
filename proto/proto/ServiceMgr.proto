@@ -1,0 +1,38 @@
+syntax = "proto2";
+
+
+
+
+// 登录协议ID定义
+enum BattleCmdType {
+    BATTLE_RET_ERROR_CODE_CMD = 1;
+    
+}
+
+
+// 
+message RetBattleErrorCodeCmd
+{
+    optional int32 cmd = 1 [default = 1000];
+    optional BattleCmdType param = 2 [default = BATTLE_RET_ERROR_CODE_CMD];
+    //
+    required int32 code = 3;// 参见 BATTLE_ERROR_CODE
+    required int32 tag = 4;// 参数 可以放其他数据
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
